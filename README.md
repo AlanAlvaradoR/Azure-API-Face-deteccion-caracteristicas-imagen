@@ -42,4 +42,43 @@ Consumo de la API de Face de los coginitive Services de Azure
 
 ![API de Face](https://github.com/AlanAlvaradoR/Azure-API-Face-deteccion-caracteristicas-imagen/blob/main/imagenes/API-Face.PNG)
 
+13. Es necesario crear una API de Face de los Cognitive Services de Azure para poder usar sus servicios, por lo que se procede a crear uno desde el [Portal de Azure](https://portal.azure.com/#home)
+
+*NOTA: Puede pedir iniciar sesión de nuevo
+
+14. En el buscador superior se busca "API de Face" y se da enter. Debe de mostrar la página de API de Face del apartado de Coginitive Services
+
+15. Se da click en "Crear".
+
+16. Se completan los parámetros que se pidan:Nombre del grupo de recursos (el que creamos para la instancia de proceso), región, nombre y plan de tarifa (Free si no se va a usar demasiado el servicio). Se marca la casilla de la parte inferior y se da click en "revisar y crear".
+
+17. Se espera a que se valide la implementación y se da click en "crear".
+
+18. Una vez terminada la implementación se da click en "ir al recurso".
+
+19. Se selecciona el apartado de "claves y puntos de conexión" en el menú izquierdo.
+
+20. Se copia la clave1 y se pega en la parte que dice "AQUÍ_PONES_TU_CLAVE_DEL_RECURSO_DE_AZURE" en el código de la notebook
+
+21. Se vuelve al menú de claves y puntos de conexión y se copia el link que dice "extremo".
+
+22. Se pega el link en la parte que dice "AQUÍ_PONES_TU_URL_DESTINO_DEL_RECURSO_DE_AZURE" en el código de la notebook.
+
+23. En el mismo código de la notebook se reemplaza la parte de 'AQUÍ_PONES_TU_IMAGEN' por el link de la imagen que se desea analizar
+
+*Nota: La imagen debe poderse accesar directamente desde el link que se propociona y debe ser pública y no solicitar acceso ni nada parecido. Si no se cuenta con una, en el código viene un link con una imagen de ejemplo.
+
+24. El código ya modificado dber verse parecido a este:
+
+![Código Python Mod](https://github.com/AlanAlvaradoR/Azure-API-Face-deteccion-caracteristicas-imagen/blob/main/imagenes/CodigoPython.PNG)
+
+24. Se da click en las flechitas dobles azules de la parte de arriba para ejecutar el código (o presionar Shift+Enter)
+
+25. Se ejecutará el código y nos mostrará los resultados de la imagen al analizarla en la parte baja de la notebook:
+
+- Edad
+- Género
+- Uso de lentes
+- Emoción predominante
+
 
