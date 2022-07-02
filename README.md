@@ -1,7 +1,7 @@
 # Azure-API-Face-deteccion-caracteristicas-imagen
 Consumo de la API de Face de los coginitive Services de Azure
 
-![Logo de Face Cognitive](https://github.com/AlanAlvaradoR/Azure-API-Face-deteccion-caracteristicas-imagen/blob/main/imagenes/)
+![Logo de Face Cognitive](https://github.com/AlanAlvaradoR/Azure-API-Face-deteccion-caracteristicas-imagen/blob/main/imagenes/FaceDetectionAzure.jpg)
 
 ## Requisitos
 
@@ -40,6 +40,6 @@ Consumo de la API de Face de los coginitive Services de Azure
 
 12. Se pega el código que se copió anteriormente dentro del Notebook que creamos, se debe algo parecido a esto:
 
-![API de Face](https://github.com/AlanAlvaradoR/Azure-API-Face-deteccion-caracteristicas-imagen/blob/main/imagenes/)
+![API de Face](https://github.com/AlanAlvaradoR/Azure-API-Face-deteccion-caracteristicas-imagen/blob/main/imagenes/API-Face.PNG)
 
 
